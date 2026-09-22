@@ -63,6 +63,10 @@ The docker image requires an HTTP port exposed and mapped to port **80** on the 
 
 A single volume mounted to `/database` is required. This volume will store the local [SQLite3](https://sqlite.org/index.html) database file is stored. This volume provides non-volitile storage so that data is not lost between docker image upgrades.
 
+### Easypanel
+
+[Easypanel](https://easypanel.io) is a self-hosted Docker deployment platform, and Gray Duck Mail has a one-click deployment template there: https://easypanel.io/templates/grayduckmail - it sets up the required database volume for you automatically.
+
 ### Environment Variables
 
 The docker image exposes the following environment variables that control the system.
